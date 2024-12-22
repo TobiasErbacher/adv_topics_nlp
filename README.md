@@ -7,4 +7,4 @@ The codebase is structured in the following sections:
 * **dataset_investigation**: @Alessia
 * **training_and_evaluation**: @Jonas, Jonatan
 * **voice_interaction**: Contains the code for voice interactivity of the system, as well as some experimentation with different libraries and models.
-**nlp.ipynb**: The clean master notebook with all relevant code elements to run the system, without additional details.
+- **nlp.ipynb**: The clean master notebook with all relevant code elements to run the system, without additional details.
