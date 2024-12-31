@@ -6,7 +6,8 @@ This repository contains the codebase for a question-answer system based on the 
 The codebase is structured in the following sections:
 * **dataset_investigation**: @Alessia
 
-The file with the embeddings from OpenAI is available at this link: https://drive.google.com/drive/folders/19RtsJwWldkp85m0OGLqaFXq1nWQT_y0a?usp=drive_link
+The file containing embeddings generated using OpenAI's models is publicly available at the following link: [Google Drive - Embeddings File](https://drive.google.com/drive/folders/19RtsJwWldkp85m0OGLqaFXq1nWQT_y0a?usp=drive_link). 
+
 
 * **training_and_evaluation**: @Jonas, Jonatan
 * **voice_interaction**: Contains the code for voice interactivity of the system, as well as some experimentation with different libraries and models.
