@@ -13,6 +13,7 @@ The notebook should be exectued in Google Collaboratory using a GPU with suffici
 
 ## Dataset investigation
 This part was done by Alessia Berarducci.
+The `data_investigation.ipynb` notebook contains the following primary analysis and exploration steps.
 
 1. **Initial Cleaning:**
    - Removed duplicate entries from the dataset.
@@ -40,6 +41,9 @@ The file containing embeddings generated using OpenAI's models is publicly avail
 
 6. **Indexing and Searching**
    - Used Whoosh
+
+The `add_part.ipynb` notebook can be executed using the `df2` dataset, which can be accessed [here](https://drive.google.com/file/d/1NRcWl1DdgpDSBV5S7idYyM-t0lkBH8z6/view?usp=sharing).
+
 
 ## Training and Evaluation
 This part was done by Jonatan Bella and Jonas Knupp.
