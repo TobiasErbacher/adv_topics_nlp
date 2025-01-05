@@ -9,41 +9,12 @@ The notebook should be exectued in Google Collaboratory using a GPU with suffici
 - The folders inside the data repository must be uploaded to the colab instance.
 - Set the colab secrets
    - HUGGINGFACE_TOKEN must be a token from Huggingface that allows access to the gated Llama 3.2 repositories.
-   - NGROK_AUTH_TOKEN must be a token from ngrok that allows access to the ngrok service and served the streamlit application. 
+   - NGROK_AUTH_TOKEN must be a token from ngrok that allows access to the ngrok service.
 
 ## Dataset investigation
 This part was done by Alessia Berarducci.
-The `data_investigation.ipynb` notebook contains the following primary analysis and exploration steps.
 
-1. **Initial Cleaning:**
-   - Removed duplicate entries from the dataset.
-   - Deleted rows where both the input and output were empty, or where either one of them was empty.
-
-2. **Document Length Analysis:**
-   - Plotted the distribution of document lengths (number of words) separately for input and output fields.
-
-3. **Vocabulary Size Analysis:**
-   - Measured the unique word count for each document and plotted the distribution for both input and output.
-
-4. **Tokenization and Lemmatization with SpaCy:**
-   - Used **SpaCy**, a natural language processing library, to tokenize and lemmatize the text in both the input and output.
-   - Trained a **Word2Vec** model using this combined list of medical text tokens and test the embeddings using cosine similary. 
-   - Word Cloud Analysis of Tokens.
-   - Vocabulary Growth Curve. 
-   - Top 20 Most Common Words in Inputs and Outputs.
-
-5. **Vector Embedding Using openAI:**
-   - Creation of Embeddings
-   - Dimensionality Reduction
-   - Clustering
-
-The file containing embeddings generated using OpenAI's models is publicly available at the following link: [Google Drive - Embeddings File](https://drive.google.com/file/d/1Tv4AtDE-HrtD5xD4uFYQbnOnEq4zKSxW/view?usp=sharing). 
-
-6. **Indexing and Searching**
-   - Used Whoosh
-
-The `add_part.ipynb` notebook can be executed using the `df2` dataset, which can be accessed [here](https://drive.google.com/file/d/1NRcWl1DdgpDSBV5S7idYyM-t0lkBH8z6/view?usp=sharing).
-
+First the dataset was cleaned, followed by the analysis of the document lengths. Then the the vocabulary size using different tokenization approaches was analyzed. Furthermore, a Word2Vec model was trained using the dataset and tested on the semantic similarity task using cosine similarity. Then the documents were embedded using OpenAPI's text-embedding-3-small model. Aftewards, the documents were classified using the obtained embeddings and the obtained clusters were analyzed. Lastly, the documents were indexed using Whoosh, a full-text indexing and searching library and an interactive interface to query the documents was implemented.
 
 ## Training and Evaluation
 This part was done by Jonatan Bella and Jonas Knupp.
