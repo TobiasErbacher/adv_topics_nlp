@@ -36,7 +36,7 @@ This part was done by Alessia Berarducci.
    - Dimensionality Reduction
    - Clustering
 
-The file containing embeddings generated using OpenAI's models is publicly available at the following link: [Google Drive - Embeddings File](https://drive.google.com/drive/folders/19RtsJwWldkp85m0OGLqaFXq1nWQT_y0a?usp=drive_link). 
+The file containing embeddings generated using OpenAI's models is publicly available at the following link: [Google Drive - Embeddings File](https://drive.google.com/file/d/1Tv4AtDE-HrtD5xD4uFYQbnOnEq4zKSxW/view?usp=sharing). 
 
 6. **Indexing and Searching**
    - Used Whoosh
