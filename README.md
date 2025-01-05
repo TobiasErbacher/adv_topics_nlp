@@ -42,7 +42,7 @@ The file containing embeddings generated using OpenAI's models is publicly avail
    - Used Whoosh
 
 ## Training and Evaluation
-This part was done by Jonathan Bella and Jonas Knupp.
+This part was done by Jonatan Bella and Jonas Knupp.
 
 The fine-tuning of the Llama 3.2 1B and Llama 3.2 3B models on the medical flashcards dataset is implemented in this section. Furthermore, the non-fine-tuned Llama 3.2 1B and Llama 3.2 3B models and the fine-tuned models are evaluated on the USMLE dataset. 
 
