@@ -10,6 +10,7 @@ The notebook should be exectued in Google Collaboratory using a GPU with suffici
 - Set the colab secrets
    - HUGGINGFACE_TOKEN must be a token from Huggingface that allows access to the gated Llama 3.2 repositories.
    - NGROK_AUTH_TOKEN must be a token from ngrok that allows access to the ngrok service.
+   - OPENAI_API_KEY must be a token from OpenAPI for the generation of the sentence embeddings in the dataset investigation part (not necessary if you are using the embeddings we provide in the file *embedded_flashcards.pkl*).
 
 ## Dataset investigation
 This part was done by Alessia Berarducci.
