@@ -1,5 +1,5 @@
 # Advanced Topics in Machine Learning: Natural Language Processing
-Authors: Jonathan Bella, Alessia Berarducci, Jonas Knupp, Tobias Erbacher
+Authors: Jonatan Bella, Alessia Berarducci, Jonas Knupp, Tobias Erbacher
 
 This repository contains the codebase for a question-answer system based on the [Medical Meadow Medical Flashcards dataset](https://huggingface.co/datasets/medalpaca/medical_meadow_medical_flashcards), related to the paper "[MedAlpaca - An Open-Source Collection of Medical Conversational AI Models and Training Data](https://arxiv.org/pdf/2304.08247.pdf)". This project was conducted as part of the **Advanced Topics in Machine Learning** course at Università della Svizzera italiana in the autumn semester 2024/2025.
 
@@ -9,7 +9,7 @@ The notebook should be exectued in Google Collaboratory using a GPU with suffici
 - The folders inside the data repository must be uploaded to the colab instance.
 - Set the colab secrets
    - HUGGINGFACE_TOKEN must be a token from Huggingface that allows access to the gated Llama 3.2 repositories.
-   - XY @Jonathan
+   - NGROK_AUTH_TOKEN must be a token from ngrok that allows access to the ngrok service and served the streamlit application. 
 
 ## Dataset investigation
 This part was done by Alessia Berarducci.
