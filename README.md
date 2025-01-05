@@ -23,10 +23,15 @@ The codebase is structured in the following sections:
    - Vocabulary Grouwth Curve. 
    - Top 20 Most Common Words in Inputs and Outputs.
 
-5. **Vector Embedding Using openAI**
+5. **Vector Embedding Using openAI:**
+   - Creation of Embeddings
+   - Dimensionality Reduction
+   - Clustering
+
 The file containing embeddings generated using OpenAI's models is publicly available at the following link: [Google Drive - Embeddings File](https://drive.google.com/drive/folders/19RtsJwWldkp85m0OGLqaFXq1nWQT_y0a?usp=drive_link). 
 
 6. **Indexing and Searching**
+   - Used Whoosh
 
 
 * **training_and_evaluation**: @Jonas, Jonatan
