@@ -28,4 +28,6 @@ This part was done by Tobias Erbacher.
 This part contains the code to implement the speech-to-text and text-to-speech functionality. For the text-to-speech functionality, the Whisper model is used while for the implementation of the text-to-speech functionality the Tacotron 2 and SpeechT5 models are used. In addition, there is code to perform speech-to-text and text-to-spech locally, that is, without extensive hardware resources.
 
 ## End-to-End Medical Question Answering
+This part was done by Jonatan Bella 
+
 This section contains an end-to-end medical question answering pipeline. The user can input a question verbally and will receive a spoken answer. We also implemented a graphical user-interface using Streamlit.
