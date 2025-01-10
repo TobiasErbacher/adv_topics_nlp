@@ -5,12 +5,12 @@ This repository contains the codebase for a question-answer system based on the 
 
 The subsection sections describe the structure of the **nlp.ipynb** notebook. In addition, the directories in this repository include additional work that was not integrated in the final notebook.
 
-The notebook should be exectued in Google Collaboratory using a GPU with sufficient RAM. Before the notebook is run perform the following tasks:
-- The folders inside the data repository must be uploaded to the colab instance.
+The notebook should be executed in Google Collaboratory using a GPU with sufficient RAM (we recommend an **L4 GPU** runtime). Before running the notebook, please perform the following tasks:
+- The folders inside the [data directory on our Github](https://github.com/TobiasErbacher/adv_topics_nlp/tree/main/data) must be uploaded to the colab instance.
 - Set the colab secrets
-   - HUGGINGFACE_TOKEN must be a token from Huggingface that allows access to the gated Llama 3.2 repositories.
-   - NGROK_AUTH_TOKEN must be a token from ngrok that allows access to the ngrok service.
-   - OPENAI_API_KEY must be a token from OpenAPI for the generation of the sentence embeddings in the dataset investigation part (not necessary if you are using the embeddings we provide in the file *embedded_flashcards.pkl*).
+   - **OPENAI_API_KEY** must be a token from OpenAPI for the generation of the sentence embeddings in the dataset investigation part. This secret is not necessary if you use the pre-computed embeddings we uploaded to Google Drive. Per default the code uses the pre-computed embeddings.
+   - **HUGGINGFACE_TOKEN** must be a token from Huggingface that allows access to the gated Llama 3.2 repositories.
+   - **NGROK_AUTH_TOKEN** must be a token from ngrok that allows access to the ngrok service. This is only necessary for running the end-to-end question answering pipeline in a nice GUI (see Voice Chatting with Streamlit section).
 
 ## Dataset investigation
 This part was done by Alessia Berarducci.
