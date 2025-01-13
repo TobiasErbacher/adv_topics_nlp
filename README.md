@@ -3,14 +3,14 @@ Authors: Jonatan Bella, Alessia Berarducci, Jonas Knupp, Tobias Erbacher
 
 This repository contains the codebase for a question-answer system based on the [Medical Meadow Medical Flashcards dataset](https://huggingface.co/datasets/medalpaca/medical_meadow_medical_flashcards), related to the paper "[MedAlpaca - An Open-Source Collection of Medical Conversational AI Models and Training Data](https://arxiv.org/pdf/2304.08247.pdf)". This project was conducted as part of the **Advanced Topics in Machine Learning** course at Università della Svizzera italiana in the autumn semester 2024/2025.
 
-The subsections describe the structure of the **nlp.ipynb** notebook. In addition, the directories in this repository include additional work that was not integrated in the final notebook.
-
 The notebook should be executed in Google Collaboratory using a GPU with sufficient RAM (we recommend a **L4 GPU** runtime). Before running the notebook, please perform the following tasks:
 - The folders inside the [data directory on our Github](https://github.com/TobiasErbacher/adv_topics_nlp/tree/main/data) must be uploaded to the colab instance.
 - Set the colab secrets
    - **OPENAI_API_KEY** must be a token from OpenAPI for the generation of the sentence embeddings in the dataset investigation part. This secret is not necessary if you use the pre-computed embeddings we uploaded to Google Drive. By default the code uses the pre-computed embeddings.
    - **HUGGINGFACE_TOKEN** must be a token from Huggingface that allows access to the gated Llama 3.2 repositories.
    - **NGROK_AUTH_TOKEN** must be a token from ngrok that allows access to the ngrok service. This is only necessary for running the end-to-end question answering pipeline in a nice GUI (see Voice Chatting with Streamlit section).
+
+The following subsections describe the structure of the **nlp.ipynb** notebook. In addition, the directories in this repository include additional work that was not integrated in the final notebook.
 
 ## Dataset investigation
 This part was done by Alessia Berarducci.
